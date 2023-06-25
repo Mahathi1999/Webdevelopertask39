@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File System API Documentation</title>
+    <style>
+      body {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .endpoint {
+        margin-bottom: 20px;
+      }
+
+      .endpoint-name {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .endpoint-description {
+        margin-top: 5px;
+        font-style: italic;
+      }
+
+      .request {
+        margin-top: 10px;
+      }
+
+      .request-method {
+        font-weight: bold;
+      }
+
+      .request-url {
+        font-family: monospace;
+        margin-top: 5px;
+      }
+
+      .response {
+        margin-top: 10px;
+      }
+
+      .response-body {
+        font-family: monospace;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>File System API Documentation</h1>
+
+    <div class="endpoint">
+      <div class="endpoint-name">Create File</div>
+      <div class="endpoint-description">Endpoint to create a file.</div>
+      <div class="request">
+        <div class="request-method">POST</div>
+        <div class="request-url">http://localhost:3000/file</div>
+      </div>
+      <div class="response">
+        <div class="response-body">Response body goes here...</div>
+      </div>
+    </div>
+
+    <div class="endpoint">
+      <div class="endpoint-name">Read File</div>
+      <div class="endpoint-description">Endpoint to read a file.</div>
+      <div class="request">
+        <div class="request-method">GET</div>
+        <div class="request-url">http://localhost:3000/file/:fileName</div>
+      </div>
+      <div class="response">
+        <div class="response-body">Response body goes here...</div>
+      </div>
+    </div>
+
+    <div class="endpoint">
+      <div class="endpoint-name">Delete File</div>
+      <div class="endpoint-description">Endpoint to delete a file.</div>
+      <div class="request">
+        <div class="request-method">DELETE</div>
+        <div class="request-url">http://localhost:3000/file/:fileName</div>
+      </div>
+      <div class="response">
+        <div class="response-body">Response body goes here...</div>
+      </div>
+    </div>
+  </body>
+</html>

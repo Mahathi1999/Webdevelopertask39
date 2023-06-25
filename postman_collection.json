@@ -1,0 +1,82 @@
+{
+    "info": {
+      "_postman_id": "YOUR_POSTMAN_COLLECTION_ID",
+      "name": "File System API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Create File",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": [
+              {
+                "key": "fileName",
+                "value": "example.txt",
+                "type": "text"
+              },
+              {
+                "key": "content",
+                "value": "This is the content of the file",
+                "type": "text"
+              }
+            ]
+          },
+          "url": {
+            "raw": "http://localhost:3000/file",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "file"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Read File",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/file/example.txt",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "file",
+              "example.txt"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete File",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/file/example.txt",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "file",
+              "example.txt"
+            ]
+          }
+        },
+        "response": []
+      }
+    ],
+    "protocolProfileBehavior": {}
+  }
+  

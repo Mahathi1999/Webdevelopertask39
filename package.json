@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "postman": "^0.2.0",
+    "postman-docs": "^1.0.0"
+  }
+}
